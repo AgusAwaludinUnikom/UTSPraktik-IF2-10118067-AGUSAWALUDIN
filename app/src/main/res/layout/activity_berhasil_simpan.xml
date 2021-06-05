@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerhasilSimpan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_rectangle_158"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_group_35"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berhasil Disimpan"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ty"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="12dp"
+                android:textColor="@color/grey"
+                android:layout_marginHorizontal="59dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/rectangle_1">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
