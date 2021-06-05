@@ -2,6 +2,7 @@ package com.example.utspraktik_if2_10118067_agusawaludin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -36,6 +37,11 @@ public class CekData extends AppCompatActivity {
         textnama.setText(String.format(text1, nama).toString());
         texttgl.setText(String.format(text2, tgl).toString());
 
+    }
+
+    public void pindah2(View view){
+        Intent intent = new Intent(this, BerhasilSimpan.class);
+        startActivity(intent);
     }
 
 }

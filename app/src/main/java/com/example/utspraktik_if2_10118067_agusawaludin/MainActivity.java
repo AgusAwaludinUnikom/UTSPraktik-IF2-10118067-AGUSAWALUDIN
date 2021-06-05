@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, CekData.class);
         intent.putExtra(INPUT_NIK, nik.getText().toString());
-        intent.putExtra(INPUT_NAMA, nik.getText().toString());
-        intent.putExtra(INPUT_TGL, nik.getText().toString());
+        intent.putExtra(INPUT_NAMA, nama.getText().toString());
+        intent.putExtra(INPUT_TGL, tgl.getText().toString());
         startActivity(intent);
     }
 }

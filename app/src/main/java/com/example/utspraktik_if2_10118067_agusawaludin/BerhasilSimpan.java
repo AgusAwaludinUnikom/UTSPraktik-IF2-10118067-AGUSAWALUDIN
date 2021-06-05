@@ -24,4 +24,8 @@ public class BerhasilSimpan extends AppCompatActivity {
         setContentView(R.layout.activity_berhasil_simpan);
     }
 
+    public void pindah3(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
