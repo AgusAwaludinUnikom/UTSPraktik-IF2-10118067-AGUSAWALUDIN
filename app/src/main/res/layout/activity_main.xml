@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -103,10 +104,12 @@
             </TextView>
 
             <EditText
+                android:id="@+id/nik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_field"
-                android:paddingLeft="15dp">
+                android:paddingLeft="15dp"
+                android:textColor="@color/black">
             </EditText>
 
             <LinearLayout
@@ -140,10 +143,12 @@
             </LinearLayout>
 
             <EditText
+                android:id="@+id/nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_field"
-                android:paddingLeft="15dp">
+                android:paddingLeft="15dp"
+                android:textColor="@color/black">
             </EditText>
 
             <LinearLayout
@@ -177,10 +182,12 @@
             </LinearLayout>
 
             <EditText
+                android:id="@+id/tgl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_field"
-                android:paddingLeft="15dp">
+                android:paddingLeft="15dp"
+                android:textColor="@color/black">
             </EditText>
 
             <LinearLayout
@@ -223,12 +230,14 @@
                 <RadioButton android:id="@+id/laki"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Laki-Laki"/>
+                    android:text="Laki-Laki"
+                    android:textColor="@color/black"/>
 
                 <RadioButton android:id="@+id/cewe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Perempuan"/>
+                    android:text="Perempuan"
+                    android:textColor="@color/black"/>
             </RadioGroup>
 
             <LinearLayout
@@ -269,22 +278,28 @@
                 <RadioButton android:id="@+id/ortu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Orangtua"/>
+                    android:text="Orangtua"
+                    android:textColor="@color/black"/>
                 <RadioButton android:id="@+id/sutri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Suami/Istri"/>
+                    android:text="Suami/Istri"
+                    android:textColor="@color/black"/>
                 <RadioButton android:id="@+id/anak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Anak"/>
+                    android:text="Anak"
+                    android:textColor="@color/black"/>
                 <RadioButton android:id="@+id/kerabat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kerabat Lainnya" />
+                    android:text="Kerabat Lainnya"
+                    android:textColor="@color/black"/>
             </RadioGroup>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnselanjutnya"
+                android:onClick="pindah1"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

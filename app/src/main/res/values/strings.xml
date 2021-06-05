@@ -4,4 +4,7 @@
     <string name="hubungan">Hubungan Dengan Anda</string>
     <string name="ty">Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat.</string>
     <string name="info">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+    <string name="nik">%s </string>
+    <string name="nama">%s </string>
+    <string name="tgl">%s </string>
 </resources>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CekData">
+    tools:context=".CekData"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,10 +65,11 @@
             </TextView>
 
             <TextView
+                android:id="@+id/textnik"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="312319469128479"
+                android:text="@string/nik"
                 android:textSize="14dp"
                 android:fontFamily="@font/roboto_regular"
                 android:textColor="@color/black">
@@ -87,37 +89,38 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama"
-                android:textSize="12dp"
-                android:textStyle="bold"
                 android:fontFamily="@font/roboto_regular"
-                android:textColor="@color/black">
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold">
 
             </TextView>
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:id="@+id/textnama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Agus Awaludin"
-                android:textSize="14dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/roboto_regular"
-                android:textColor="@color/black">
+                android:text="@string/nama"
+                android:textColor="@color/black"
+                android:textSize="14dp">
 
             </TextView>
 
             <ImageView
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/ic_rectangle_195">
 
             </ImageView>
@@ -144,10 +147,11 @@
             </TextView>
 
             <TextView
+                android:id="@+id/texttgl"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="25 Agustus 2000"
+                android:text="@string/tgl"
                 android:textSize="14dp"
                 android:fontFamily="@font/roboto_regular"
                 android:textColor="@color/black">
